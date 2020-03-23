@@ -106,7 +106,7 @@ public class ServerUtil {
 //        어떤 메쏘드를 쓰는지?
         Request request = new Request.Builder()
                 .url(urlStr)
-                .post(formData)
+                .put(formData)
                 .build();
 
 
