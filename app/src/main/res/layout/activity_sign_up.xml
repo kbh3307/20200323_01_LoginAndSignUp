@@ -14,10 +14,11 @@
             android:text="아이디"/>
 
         <EditText
+            android:id="@+id/idEdt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
-            android:text="가입 할 아이디" />
+            android:hint="가입 할 아이디" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -25,10 +26,11 @@
             android:text="비밀번호"/>
 
         <EditText
+            android:id="@+id/pwEdt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
-            android:text="비밀번호 입력" />
+            android:hint="비밀번호 입력" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -36,10 +38,11 @@
             android:text="이름"/>
 
         <EditText
+            android:id="@+id/nameEdt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:singleLine="true"
-            android:text="이름 기재" />
+            android:hint="이름 기재" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -47,12 +50,14 @@
             android:text="연락처"/>
 
         <EditText
+            android:id="@+id/phoneEdt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="phone"
-            android:text="핸드폰 번호" />
+            android:hint="핸드폰 번호" />
 
         <Button
+            android:id="@+id/signUpBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="회원가입"/>
